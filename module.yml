@@ -1,0 +1,20 @@
+command:
+    win:
+        path: 'C:/Program Files/INRIA/Natron-2.2.5/bin/Natron'
+        args: []
+    linux:
+        path: '/opt/Natron2/bin/Natron'
+        args: ['-b']
+
+environment:
+    NATRON_PLUGIN_PATH:
+        - '$MODULE/python'
+        - '$MODULE/plug-ins/$PLATFORM'
+    PYTHONPATH:
+        - '$MODULE/python'
+
+dependencies:
+    pip: []
+    git: []
+include: []
+
