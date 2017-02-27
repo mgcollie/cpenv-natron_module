@@ -1,9 +1,9 @@
 command:
     win:
-        path: C:/Program Files/INRIA/Natron-2.2.5/bin/Natron
+        path: N:/repo/software/Natron/2.2.5/win/bin/Natron
         args: []
     linux:
-        path: /opt/Natron2/bin/Natron
+        path: /n/repo/software/Natron/2.2.5/linux/bin/Natron
         args: ['-b']
 
 environment:
