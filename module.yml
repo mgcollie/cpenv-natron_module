@@ -7,8 +7,6 @@ command:
         args: ['-b']
 
 environment:
-    PATH:
-        - '$PATH:N:/repo/software/Natron/2.2.5/win/bin/Natron;'
     NATRON_PLUGIN_PATH:
         - '$MODULE/python'
         - '$MODULE/plug-ins/$PLATFORM'
